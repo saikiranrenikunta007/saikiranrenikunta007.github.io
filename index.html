@@ -1,315 +1,613 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-theme="light">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Saikiran Renikunta - Backend Engineer | FinTech</title>
-  <meta name="description" content="Backend Software Engineer with 3+ years building scalable, secure distributed fintech systems serving 6M+ users.">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-</head>
-<body>
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="nav-container">
-      <a href="#" class="nav-logo">&lt;SK /&gt;</a>
-      <ul class="nav-menu" id="nav-menu">
-        <li><a href="#hero" class="nav-link">Home</a></li>
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#technologies" class="nav-link">Technologies</a></li>
-        <li><a href="#experience" class="nav-link">Experience</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-      </ul>
-      <div class="nav-right">
-        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
-          <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-          <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-        </button>
-        <a href="mailto:saikiranrenikunta@gmail.com" class="btn btn-nav">Contact Me</a>
-        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-    </div>
-  </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saikiran Renikunta - Backend Engineer | FinTech</title>
+    <meta
+      name="description"
+      content="Backend Software Engineer with 3+ years building scalable, secure distributed fintech systems serving 6M+ users."
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <!-- Hero Section -->
-  <section class="hero" id="hero">
-    <div class="container hero-grid">
-      <div class="hero-content">
-        <h1>Hi, I'm Saikiran 👋</h1>
-        <p class="hero-description">
-          I'm a backend engineer working in fintech. I spend most of my time writing Java, thinking about system design, 
-          and trying to make things work reliably at scale. Currently at Muthoot Fincorp One, where I get to work on problems 
-          that touch millions of users daily.
-        </p>
-        <ul class="hero-points">
-          <li>I work on backend systems in the financial services space</li>
-          <li>I enjoy solving problems around concurrency and distributed systems</li>
-          <li>I'm always learning - currently deep into system design and DSA</li>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="nav-logo">&lt;SK /&gt;</a>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#technologies" class="nav-link">Technologies</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
-        <div class="hero-social">
-          <a href="https://linkedin.com/in/saikiran-renikunta" target="_blank" rel="noopener" aria-label="LinkedIn">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-          </a>
-          <a href="https://github.com/saikiran-renikunta" target="_blank" rel="noopener" aria-label="GitHub">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
-          </a>
-          <a href="https://leetcode.com/u/saikiranrenikunta/" target="_blank" rel="noopener" aria-label="LeetCode">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/></svg>
-          </a>
+        <div class="nav-right">
+          <button
+            class="theme-toggle"
+            id="theme-toggle"
+            aria-label="Toggle theme"
+          >
+            <svg
+              class="icon-sun"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="12" cy="12" r="5" />
+              <line x1="12" y1="1" x2="12" y2="3" />
+              <line x1="12" y1="21" x2="12" y2="23" />
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+              <line x1="1" y1="12" x2="3" y2="12" />
+              <line x1="21" y1="12" x2="23" y2="12" />
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+            </svg>
+            <svg
+              class="icon-moon"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+            </svg>
+          </button>
+          <a href="mailto:saikiranrenikunta@gmail.com" class="btn btn-nav"
+            >Contact Me</a
+          >
+          <button
+            class="nav-toggle"
+            id="nav-toggle"
+            aria-label="Toggle navigation"
+          >
+            <span></span><span></span><span></span>
+          </button>
         </div>
       </div>
-      <div class="hero-image">
-        <div class="hero-photo-wrapper">
-          <img src="https://avatars.githubusercontent.com/saikiran-renikunta" alt="Saikiran Renikunta" class="hero-photo" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder');">
-        </div>
-      </div>
-    </div>
-  </section>
+    </nav>
 
-  <!-- About Section -->
-  <section class="section" id="about">
-    <div class="container">
-      <h2 class="section-subtitle">Curious about me? Here you have it:</h2>
-      <div class="about-grid">
-        <div class="about-image">
-          <img src="https://avatars.githubusercontent.com/saikiran-renikunta" alt="Saikiran" class="about-photo" onerror="this.style.display='none'; this.parentElement.classList.add('placeholder');">
-        </div>
-        <div class="about-text">
-          <p>I'm a backend engineer who graduated from SNIST and has been working at <strong>Muthoot Fincorp One</strong> for about 3 years now. My day-to-day involves writing Java, building APIs, and figuring out how to make services talk to each other without falling over.</p>
-          <p>I got into programming because I liked the idea of building things that actually work - not flashy, just reliable. Most of what I do isn't visible to the end user, and I'm okay with that. If the system stays up and the response comes back fast, I've done my job.</p>
-          <p>I'm still learning a lot. I read about distributed systems, practice DSA regularly, and try to understand why things break more than just fixing them. I believe good engineering is about being honest about what you don't know and being willing to dig in.</p>
-          <p>A few things about me:</p>
-          <ul class="about-list">
-            <li>B.Tech in Computer Science from SNIST (8.38 CGPA)</li>
-            <li>I enjoy solving problems on LeetCode (500+ solved, still going)</li>
-            <li>HackerRank: 5⭐ in Python, Java & Problem Solving</li>
-            <li>Won a college hackathon once (OpenCV-based project)</li>
-            <li>I like reading, gymming, and occasionally overthinking things</li>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Hi, I'm Saikiran 👋</h1>
+          <p class="hero-description">
+            I'm a backend engineer working in fintech. I spend most of my time
+            writing Java, thinking about system design, and trying to make
+            things work reliably at scale. Currently at Muthoot Fincorp One,
+            where I get to work on problems that touch millions of users daily.
+          </p>
+          <ul class="hero-points">
+            <li>I work on backend systems in the financial services space</li>
+            <li>
+              I enjoy solving problems around concurrency and distributed
+              systems
+            </li>
+            <li>
+              I'm always learning - currently deep into system design and DSA
+            </li>
           </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Technologies Section -->
-  <section class="section section-alt" id="technologies">
-    <div class="container">
-      <h2 class="section-title">The tools and technologies I work with:</h2>
-      <div class="tech-grid">
-        <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
-          <span>Java</span>
-        </div>
-        <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot">
-          <span>Spring Boot</span>
-        </div>
-        <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
-          <span>Python</span>
-        </div>
-        <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
-          <span>C++</span>
-        </div>
-        <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL">
-          <span>PostgreSQL</span>
-        </div>
-        <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" alt="Redis">
-          <span>Redis</span>
-        </div>
-        <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="AWS">
-          <span>AWS</span>
-        </div>
-        <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
-          <span>Docker</span>
-        </div>
-        <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" alt="Kafka">
-          <span>Kafka</span>
-        </div>
-        <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins">
-          <span>Jenkins</span>
-        </div>
-        <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
-          <span>Git</span>
-        </div>
-        <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux">
-          <span>Linux</span>
-        </div>
-        <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dynamodb/dynamodb-original.svg" alt="DynamoDB" onerror="this.src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg'">
-          <span>DynamoDB</span>
-        </div>
-        <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oauth/oauth-original.svg" alt="OAuth" onerror="this.parentElement.querySelector('img').src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openal/openal-original.svg'">
-          <span>OAuth2/JWT</span>
-        </div>
-        <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg" alt="Hibernate">
-          <span>Hibernate</span>
-        </div>
-        <div class="tech-item">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="IntelliJ">
-          <span>IntelliJ</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Experience Section -->
-  <section class="section" id="experience">
-    <div class="container">
-      <h2 class="section-title">Here is a quick summary of my most recent experience:</h2>
-      <div class="experience-list">
-        <div class="experience-card">
-          <div class="exp-logo">
-            <div class="company-logo">MF1</div>
+          <div class="hero-social">
+            <a
+              href="https://linkedin.com/in/saikiran-renikunta"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn"
+            >
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://github.com/saikiran-renikunta"
+              target="_blank"
+              rel="noopener"
+              aria-label="GitHub"
+            >
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://leetcode.com/u/saikiranrenikunta/"
+              target="_blank"
+              rel="noopener"
+              aria-label="LeetCode"
+            >
+              <svg
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"
+                />
+              </svg>
+            </a>
           </div>
-          <div class="exp-content">
-            <div class="exp-header">
-              <h3>Software Engineer - Backend</h3>
-              <span class="exp-date">Feb 2023 - Present</span>
-            </div>
-            <p class="exp-company-name">Muthoot Fincorp One</p>
-            <p class="exp-summary">Working in a small team building backend services for a fintech super-app. Most of my work involves designing APIs, handling integrations, and making sure things don't break at scale.</p>
-            <ul class="exp-points">
-              <li>Write and maintain Java/Spring Boot services that serve production traffic daily</li>
-              <li>Work across the stack - from database schema design to API contracts to deployment</li>
-              <li>Collaborate on system design for new features, mostly around payments and user onboarding</li>
-              <li>Use Kafka, Redis, DynamoDB, and AWS services regularly</li>
-              <li>Help with code reviews, debugging production issues, and mentoring newer engineers</li>
-              <li>Try to keep things simple - less code, fewer moving parts, clearer contracts</li>
+        </div>
+        <div class="hero-image">
+          <div class="hero-photo-wrapper">
+            <img
+              src="./assets/saikiran.jpeg"
+              alt="Saikiran Renikunta"
+              class="hero-photo"
+              onerror="
+                this.style.display = 'none';
+                this.parentElement.classList.add('placeholder');
+              "
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-subtitle">Curious about me? Here you have it:</h2>
+        <div class="about-grid">
+          <div class="about-image">
+            <img
+              src="./assets/saikiran.jpeg"
+              alt="Saikiran"
+              class="about-photo"
+              onerror="
+                this.style.display = 'none';
+                this.parentElement.classList.add('placeholder');
+              "
+            />
+          </div>
+          <div class="about-text">
+            <p>
+              I'm a backend engineer who graduated from SNIST and has been
+              working at <strong>Muthoot Fincorp One</strong> for about 3 years
+              now. My day-to-day involves writing Java, building APIs, and
+              figuring out how to make services talk to each other without
+              falling over.
+            </p>
+            <p>
+              I got into programming because I liked the idea of building things
+              that actually work - not flashy, just reliable. Most of what I do
+              isn't visible to the end user, and I'm okay with that. If the
+              system stays up and the response comes back fast, I've done my
+              job.
+            </p>
+            <p>
+              I'm still learning a lot. I read about distributed systems,
+              practice DSA regularly, and try to understand why things break
+              more than just fixing them. I believe good engineering is about
+              being honest about what you don't know and being willing to dig
+              in.
+            </p>
+            <p>A few things about me:</p>
+            <ul class="about-list">
+              <li>B.Tech in Computer Science from SNIST (8.38 CGPA)</li>
+              <li>
+                I enjoy solving problems on LeetCode (500+ solved, still going)
+              </li>
+              <li>HackerRank: 5⭐ in Python, Java & Problem Solving</li>
+              <li>Won a college hackathon once (OpenCV-based project)</li>
+              <li>
+                I like reading, gymming, and occasionally overthinking things
+              </li>
             </ul>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Projects Section -->
-  <section class="section section-alt" id="projects">
-    <div class="container">
-      <h2 class="section-title">Some of the small projects I built while learning:</h2>
-      <div class="projects-list">
-        <div class="project-card-horizontal">
-          <div class="project-preview">
-            <div class="project-placeholder">
-              <span>🐶</span>
-              <p>TinDog</p>
-            </div>
+    <!-- Technologies Section -->
+    <section class="section section-alt" id="technologies">
+      <div class="container">
+        <h2 class="section-title">The tools and technologies I work with:</h2>
+        <div class="tech-grid">
+          <div class="tech-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+              alt="Java"
+            />
+            <span>Java</span>
           </div>
-          <div class="project-info">
-            <h3>TinDog</h3>
-            <p>A fun landing page for a fictional dog matching app. Built this while learning Bootstrap - it helped me understand grid systems, responsive utilities, and how to structure a landing page with pricing cards and testimonials. Nothing groundbreaking, but it taught me the basics well.</p>
-            <div class="project-tags">
-              <span class="tag">HTML</span>
-              <span class="tag">CSS</span>
-              <span class="tag">Bootstrap</span>
-            </div>
-            <a href="https://sktindog.netlify.app/" target="_blank" rel="noopener" class="project-link">View Live ↗</a>
+          <div class="tech-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+              alt="Spring Boot"
+            />
+            <span>Spring Boot</span>
           </div>
-        </div>
-        <div class="project-card-horizontal reverse">
-          <div class="project-preview">
-            <div class="project-placeholder">
-              <span>🚚</span>
-              <p>Move With Joy</p>
-            </div>
+          <div class="tech-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+              alt="Python"
+            />
+            <span>Python</span>
           </div>
-          <div class="project-info">
-            <h3>Move With Joy</h3>
-            <p>A website for a fictional moving company. I used this to practice Bootstrap components - navbars, carousels, cards, and responsive layouts. It's a simple multi-section page, but building it helped me get comfortable with component-based layouts.</p>
-            <div class="project-tags">
-              <span class="tag">HTML</span>
-              <span class="tag">CSS</span>
-              <span class="tag">Bootstrap</span>
-            </div>
-            <a href="https://sk-move-with-joy.netlify.app/" target="_blank" rel="noopener" class="project-link">View Live ↗</a>
+          <div class="tech-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+              alt="C++"
+            />
+            <span>C++</span>
           </div>
-        </div>
-        <div class="project-card-horizontal">
-          <div class="project-preview">
-            <div class="project-placeholder">
-              <span>☕</span>
-              <p>Starbucks</p>
-            </div>
+          <div class="tech-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+              alt="PostgreSQL"
+            />
+            <span>PostgreSQL</span>
           </div>
-          <div class="project-info">
-            <h3>Starbucks Webpage Clone</h3>
-            <p>A static clone of a Starbucks-style webpage built with just HTML and CSS. No frameworks, no libraries - I wanted to see how far I could get with pure CSS for layout and styling. It was a good exercise in understanding flexbox, spacing, and visual hierarchy.</p>
-            <div class="project-tags">
-              <span class="tag">HTML</span>
-              <span class="tag">CSS</span>
-            </div>
-            <a href="https://sk-starbucks.netlify.app/" target="_blank" rel="noopener" class="project-link">View Live ↗</a>
+          <div class="tech-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
+              alt="Redis"
+            />
+            <span>Redis</span>
           </div>
-        </div>
-        <div class="project-card-horizontal reverse">
-          <div class="project-preview">
-            <div class="project-placeholder">
-              <span>🔑</span>
-              <p>Login Page</p>
-            </div>
+          <div class="tech-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
+              alt="AWS"
+            />
+            <span>AWS</span>
           </div>
-          <div class="project-info">
-            <h3>Login Page</h3>
-            <p>A clean login/signup page design. Simple CSS work - forms, input styling, buttons, and basic layout. I built this early on and it's nothing fancy, but it was where I first started caring about how things look and feel for the user.</p>
-            <div class="project-tags">
-              <span class="tag">HTML</span>
-              <span class="tag">CSS</span>
-            </div>
-            <a href="https://sk-login-page.netlify.app/" target="_blank" rel="noopener" class="project-link">View Live ↗</a>
+          <div class="tech-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+              alt="Docker"
+            />
+            <span>Docker</span>
+          </div>
+          <div class="tech-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg"
+              alt="Kafka"
+            />
+            <span>Kafka</span>
+          </div>
+          <div class="tech-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
+              alt="Jenkins"
+            />
+            <span>Jenkins</span>
+          </div>
+          <div class="tech-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+              alt="Git"
+            />
+            <span>Git</span>
+          </div>
+          <div class="tech-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+              alt="Linux"
+            />
+            <span>Linux</span>
+          </div>
+          <div class="tech-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dynamodb/dynamodb-original.svg"
+              alt="DynamoDB"
+              onerror="
+                this.src =
+                  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg'
+              "
+            />
+            <span>DynamoDB</span>
+          </div>
+          <div class="tech-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oauth/oauth-original.svg"
+              alt="OAuth"
+              onerror="
+                this.parentElement.querySelector('img').src =
+                  'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openal/openal-original.svg'
+              "
+            />
+            <span>OAuth2/JWT</span>
+          </div>
+          <div class="tech-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg"
+              alt="Hibernate"
+            />
+            <span>Hibernate</span>
+          </div>
+          <div class="tech-item">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg"
+              alt="IntelliJ"
+            />
+            <span>IntelliJ</span>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact Section -->
-  <section class="section" id="contact">
-    <div class="container contact-container">
-      <h2 class="section-title">Want to say hi or talk about something? I'd be happy to hear from you.</h2>
-      <div class="contact-info">
-        <a href="mailto:saikiranrenikunta@gmail.com" class="contact-email">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          saikiranrenikunta@gmail.com
-        </a>
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section-title">
+          Here is a quick summary of my most recent experience:
+        </h2>
+        <div class="experience-list">
+          <div class="experience-card">
+            <div class="exp-logo">
+              <div class="company-logo">MF1</div>
+            </div>
+            <div class="exp-content">
+              <div class="exp-header">
+                <h3>Software Engineer - Backend</h3>
+                <span class="exp-date">Feb 2023 - Present</span>
+              </div>
+              <p class="exp-company-name">Muthoot Fincorp One</p>
+              <p class="exp-summary">
+                Working in a small team building backend services for a fintech
+                super-app. Most of my work involves designing APIs, handling
+                integrations, and making sure things don't break at scale.
+              </p>
+              <ul class="exp-points">
+                <li>
+                  Write and maintain Java/Spring Boot services that serve
+                  production traffic daily
+                </li>
+                <li>
+                  Work across the stack - from database schema design to API
+                  contracts to deployment
+                </li>
+                <li>
+                  Collaborate on system design for new features, mostly around
+                  payments and user onboarding
+                </li>
+                <li>Use Kafka, Redis, DynamoDB, and AWS services regularly</li>
+                <li>
+                  Help with code reviews, debugging production issues, and
+                  mentoring newer engineers
+                </li>
+                <li>
+                  Try to keep things simple - less code, fewer moving parts,
+                  clearer contracts
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-      <p class="contact-note">You may also find me on these platforms:</p>
-      <div class="contact-social">
-        <a href="https://linkedin.com/in/saikiran-renikunta" target="_blank" rel="noopener" aria-label="LinkedIn">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-        </a>
-        <a href="https://github.com/saikiran-renikunta" target="_blank" rel="noopener" aria-label="GitHub">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
-        </a>
-        <a href="https://leetcode.com/u/saikiranrenikunta/" target="_blank" rel="noopener" aria-label="LeetCode">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/></svg>
-        </a>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <h2 class="section-title">
+          Some of the small projects I built while learning:
+        </h2>
+        <div class="projects-list">
+          <div class="project-card-horizontal">
+            <div class="project-preview">
+              <div class="project-placeholder">
+                <span>🐶</span>
+                <p>TinDog</p>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>TinDog</h3>
+              <p>
+                A fun landing page for a fictional dog matching app. Built this
+                while learning Bootstrap - it helped me understand grid systems,
+                responsive utilities, and how to structure a landing page with
+                pricing cards and testimonials. Nothing groundbreaking, but it
+                taught me the basics well.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Bootstrap</span>
+              </div>
+              <a
+                href="https://sktindog.netlify.app/"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                >View Live ↗</a
+              >
+            </div>
+          </div>
+          <div class="project-card-horizontal reverse">
+            <div class="project-preview">
+              <div class="project-placeholder">
+                <span>🚚</span>
+                <p>Move With Joy</p>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Move With Joy</h3>
+              <p>
+                A website for a fictional moving company. I used this to
+                practice Bootstrap components - navbars, carousels, cards, and
+                responsive layouts. It's a simple multi-section page, but
+                building it helped me get comfortable with component-based
+                layouts.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Bootstrap</span>
+              </div>
+              <a
+                href="https://sk-move-with-joy.netlify.app/"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                >View Live ↗</a
+              >
+            </div>
+          </div>
+          <div class="project-card-horizontal">
+            <div class="project-preview">
+              <div class="project-placeholder">
+                <span>☕</span>
+                <p>Starbucks</p>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Starbucks Webpage Clone</h3>
+              <p>
+                A static clone of a Starbucks-style webpage built with just HTML
+                and CSS. No frameworks, no libraries - I wanted to see how far I
+                could get with pure CSS for layout and styling. It was a good
+                exercise in understanding flexbox, spacing, and visual
+                hierarchy.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+              <a
+                href="https://sk-starbucks.netlify.app/"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                >View Live ↗</a
+              >
+            </div>
+          </div>
+          <div class="project-card-horizontal reverse">
+            <div class="project-preview">
+              <div class="project-placeholder">
+                <span>🔑</span>
+                <p>Login Page</p>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Login Page</h3>
+              <p>
+                A clean login/signup page design. Simple CSS work - forms, input
+                styling, buttons, and basic layout. I built this early on and
+                it's nothing fancy, but it was where I first started caring
+                about how things look and feel for the user.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+              <a
+                href="https://sk-login-page.netlify.app/"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+                >View Live ↗</a
+              >
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2024 Saikiran Renikunta</p>
-    </div>
-  </footer>
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container contact-container">
+        <h2 class="section-title">
+          Want to say hi or talk about something? I'd be happy to hear from you.
+        </h2>
+        <div class="contact-info">
+          <a href="mailto:saikiranrenikunta@gmail.com" class="contact-email">
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+              />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            saikiranrenikunta@gmail.com
+          </a>
+        </div>
+        <p class="contact-note">You may also find me on these platforms:</p>
+        <div class="contact-social">
+          <a
+            href="https://linkedin.com/in/saikiran-renikunta"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://github.com/saikiran-renikunta"
+            target="_blank"
+            rel="noopener"
+            aria-label="GitHub"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://leetcode.com/u/saikiranrenikunta/"
+            target="_blank"
+            rel="noopener"
+            aria-label="LeetCode"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
 
-  <script src="js/main.js"></script>
-</body>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Saikiran Renikunta</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
 </html>
